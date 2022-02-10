@@ -14,8 +14,9 @@ Click here to see project documentation
 
 Project Group Members:
 
-Soumodip Ghosh (CSE Dept., Year of Passing 2022)
-Jayanta Dhali (CSE Dept., Year of Passing 2022)
-Sarthak Srivastava (CSE Dept., Year of Passing 2022)
-Ankita Datta (CSE Dept., Year of Passing 2022)
+1.Soumodip Ghosh (CSE Dept., Year of Passing 2022)
+2.Jayanta Dhali (CSE Dept., Year of Passing 2022)
+3.Sarthak Srivastava (CSE Dept., Year of Passing 2022)
+4.Ankita Datta (CSE Dept., Year of Passing 2022)
+
 For any queries contact me at ghoshsoumo14@gmail.com
