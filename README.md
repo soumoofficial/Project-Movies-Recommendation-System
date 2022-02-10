@@ -3,9 +3,9 @@
 Project Serial-Movies-and-Web-Series-Recommendation-System
 Status: On Progress
 
-College name: Hooghly Engineering and Technology College
-Project type: Final Year Project
-Mentor: Prof. Mrs. Sanghamitra Das (Assistant Profesor, Computer Science and Engineering Dept.)
+*College name: Hooghly Engineering and Technology College
+*Project type: Final Year Project
+*Mentor: Prof. Mrs. Sanghamitra Das (Assistant Profesor, Computer Science and Engineering Dept.)
 
 Project Started: 1 October 2021
 Project Ended: Currently ongoing...
