@@ -3,7 +3,6 @@
 <b>College name: Hooghly Engineering and Technology College</b><br>
 <b>Project type: Final Year Project</b><br>
 <b>Mentor: <a href="https://www.hetc.ac.in/faculty/sanghamitra-das/">Prof. Mr. Sanghamitra Das</a> (Assistant Prof, Computer Science and Engineering Dept.)</b><br><br>
-<b>Mentor: <a href="https://www.hetc.ac.in/faculty/dibyendu-samanta/">Prof. Mr. Sanghamitra Das</a> (Assistant Prof, Computer Science and Engineering Dept.)</b><br>
 <br><b>Project Started: 1 October 2021</b><br>
 <b>Project Ended: Currently ongoing...</b><br><br>
 <b>Click here to see <a href="https://drive.google.com/file/d/1YHhe3_jNbAht1zaHw1jypey04VXyBpUy/view?usp=sharing">project documentation</a></b><br><br>
