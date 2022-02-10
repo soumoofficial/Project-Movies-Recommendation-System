@@ -10,8 +10,6 @@
 <b>Project Group Members:</b>
 <ol>
   <br><li><a href="https://www.linkedin.com/in/soumoofficial/">Soumodip Ghosh</a> (CSE Dept., Year of Passing 2022)</li>
-  <br><li><a href="https://www.linkedin.com/in/soumoofficial/" target="
-_blank">Arijit Roy</a> (CSE Dept., Year of Passing 2022)</li>
   <li><a href="https://www.linkedin.com/in/jayanta-dhali-8a3326192/">Jayanta Dhali</a> (CSE Dept., Year of Passing 2022)</li>
   <li><a href="https://www.linkedin.com/in/ankitadofficial/">Ankita Datta</a> (CSE Dept., Year of Passing 2022)</li>
   <li><a href="https://www.linkedin.com/in/sarthak-srivastava-50b47a205/">Sarthak Srivastava</a> (CSE Dept., Year of Passing 2022)</li>
