@@ -1,4 +1,4 @@
-<h1>Project Serials-Movies & Webseries Recommendation System</h1>
+<h1>Project Movies Recommendation System</h1>
 <b>Status: On Progress</b><br><br>
 <b>College name: Hooghly Engineering and Technology College</b><br>
 <b>Project type: Final Year Project</b><br>
