@@ -17,64 +17,7 @@
 <b>Project Ended: Currently ongoing...</b><br><br>
 For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshsoumo14@gmail.com</b></a>
 <div class="container">
-     <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-                <div class="col-md-6 px-0">
-                    <h1 class="display-4 fst-italic">Dive deep into the world of Data Mining and RS</h1>
-                    <p class="lead my-3">Get brief idea on the concept of Data Mining and how the thought of a RS came into people's mind.</p>
-                </div>
-            </div>
-        <div class="row align-items-md-stretch">
-            <div class="col-md-6">
-                <div class="h-100 p-5 text-dark bg-light rounded-3">
-                    <h2>Data Mining</h2>
-                    <p>The process of digging through data to discover hidden connections and predict future trends has a long history. Sometimes referred to as "knowledge discovery in databases," the term "data mining" wasn’t coined until the 1990s. But its foundation comprises three intertwined scientific disciplines: statistics (the numeric study of data relationships), artificial intelligence (human-like intelligence displayed by software and/or machines) and machine learning (algorithms that can learn from data to make predictions). What was old is new again, as data mining technology keeps evolving to keep pace with the limitless potential of big data and affordable computing power.
-                        Over the last decade, advances in processing power and speed have enabled us to move beyond manual, tedious and time-consuming practices to quick, easy and automated data analysis. The more complex the data sets collected, the more potential there is to uncover relevant insights. Retailers, banks, manufacturers, telecommunications providers and insurers, among others, are using data mining to discover relationships among everything from price optimization, promotions and demographics to how the economy, risk, competition and social media are affecting their business models, revenues, operations and customer relationships.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="h-100 p-5 bg-dark border text-light rounded-3">
-                    <h2>Recommendation System</h2>
-                    <p>A Recommendation System (RS) is an intelligent computer-based technique that predicts on the basis of users’ adoption and usage and helps them to pick items from a vast pool of online stuffs. Most internet users surely have happened upon an RS in some way. For instance, Facebook recommends us, prospective friends, YouTube recommends us the videos in accord, Glassdoor recommends us matching jobs, Goodreads recommends us interesting books and so on. E-Commerce portals (e.g., eBay, Amazon, etc.) are using RSs to entice customers by heaving with the products that customers should, presumably, going to like. This has helped them to attain a huge boost in sales. Not only the online business, but there are other applications also that take advantage of RSs, such as social networks, online news portals, entertainment sites, and other knowledge management applications.These days, many companies are adopting RS techniques as an added value to enrich their client services. Though, the implementation of an RS depends on the particular recommendation approach adopted by the application, the core working of RSs remain more or less the same for all applications. The focal objective of RSs is to aid users in their decision making in order to pick out an online item, by supporting with in-hand recommendations of high accuracy. </p>
-                </div>
-            </div>
-        </div>
-        <!-- From here the blog on Data Mining and Recommender System Starts -->
-        <main class="container my-4">
-            <div class="row mb-2">
-                <div class="col-md-6">
-                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">DM</strong>
-                            <h3 class="mb-0">Data Mining</h3>
-                            <div class="mb-1 text-muted">Apr 27</div>
-                            <p class="card-text mb-auto">Read about the history of Data Mining in more details.</p>
-                            <a href="https://medium.com/@exastax/the-history-of-data-mining-d2aeb0f587ce" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <img class="bd-placeholder-img" width="200" height="250" src="" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            
-                            <rect width="100%" height="100%" fill="#55595c"></rect></img>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-success">RS</strong>
-                            <h3 class="mb-0">Recommendation System</h3>
-                            <div class="mb-1 text-muted">Apr 29</div>
-                            <p class="mb-auto">Read about the history of Recommendation Systems in more details.</p>
-                            <a href="https://www.onespire.net/news/history-of-recommender-systems/" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <img class="bd-placeholder-img" width="200" height="250" src="" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title></title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect></img>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5">
+<div class="row g-5">
                 <div class="col-md-8">
                     <h3 class="pb-4 mb-4 fst-italic border-bottom">
                         From the Team
@@ -252,37 +195,4 @@ For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshso
                         </ol>
                     </article>
                 </div>
-                <div class="col-md-4">
-                    <div class="position-sticky" style="top: 2rem;">
-                        <div class="p-4 mb-3 bg-light rounded">
-                            <h4 class="fst-italic">About</h4>
-                            <p class="mb-0">This is a mini blog on our Project i.e. about Recommendation System and the model is prepared based on the concept of Data mining. Read this blog to get a clear idea about our project.</p>
-                        </div>
-                        <div class="p-4">
-                            <h4 class="fst-italic">Upcoming Releases</h4>
-                            <ol class="list-unstyled mb-0">
-                                <ul>
-                                    <li><a href="https://www.imdb.com/calendar/?region=in">IMDb</a></li>
-                                    <li><a href="https://www.bollywoodhungama.com/movie-release-dates/">Hungama</a></li>
-                                    <li><a href="https://in.bookmyshow.com/explore/upcoming-movies">BookMyShow</a></li>
-                                    </ul>
-                            </ol>
-                        </div>
-                        <div class="p-4">
-                            <h4 class="fst-italic">Elsewhere</h4>
-                            <ol class="list-unstyled">
-                                <ul>
-                                    <li><a href="https://github.com/soumoofficial/Serial-Movies-and-Web-Series-Recommendation-System">GitHub</a></li>
-                                    <li><a href="#">LinkedIn</a></li>
-                                    <li><a href="#">Facebook</a></li>
-                                </ul>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="pt-3 mt-4 text-muted border-top">
-            &copy; 2022
-        </footer>
-    </div>
+</div>
