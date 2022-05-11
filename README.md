@@ -51,8 +51,8 @@ For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshso
                             <a href="https://medium.com/@exastax/the-history-of-data-mining-d2aeb0f587ce" class="stretched-link">Continue reading</a>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <img class="bd-placeholder-img" width="200" height="250" src="https://cyberhoot.com/wp-content/uploads/2020/06/data-mining-illustration.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title></title>
+                            <img class="bd-placeholder-img" width="200" height="250" src="" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            
                             <rect width="100%" height="100%" fill="#55595c"></rect></img>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshso
                             <a href="https://www.onespire.net/news/history-of-recommender-systems/" class="stretched-link">Continue reading</a>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <img class="bd-placeholder-img" width="200" height="250" src="https://miro.medium.com/max/792/1*P63ZaFHlssabl34XbJgong.jpeg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <img class="bd-placeholder-img" width="200" height="250" src="" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title></title>
                             <rect width="100%" height="100%" fill="#55595c"></rect></img>
                         </div>
