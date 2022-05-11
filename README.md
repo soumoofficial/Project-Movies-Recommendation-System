@@ -191,7 +191,7 @@ For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshso
                                     <h5>Testing :</h5>
                                 </li>
                                 <p>Our model will be recommending the best 10 movie names for each of the cases.</p>
-                              <h5>Deployment :</h5>
+                              <h5>vii. Deployment :</h5>
                                 </li>
                                 <ol>
                                     <li>
