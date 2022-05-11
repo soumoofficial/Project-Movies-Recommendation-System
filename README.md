@@ -191,9 +191,10 @@ For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshso
                                     <h5>Testing :</h5>
                                 </li>
                                 <p>Our model will be recommending the best 10 movie names for each of the cases.</p>
-                              <h5>vii. Deployment :</h5>
+                              <li>
+                                    <h5>Deployment:</h5>
                                 </li>
-                                <ol>
+                                  <ol>
                                     <li>
                                         <h5>App Creation</h5>
                                     </li>
@@ -236,6 +237,7 @@ Bootstrap includes HTML and CSS based design templates for typography, forms, bu
                                     <p>How actually the search function works and displays us the final list of movies. Basically there is a views.py file which contains a show function in which the main search functionality is being defined. A post request is being received when a user searches for a movie , a empty list “m” is created. Then we check whether the searched item is ‘’ or not if empty it returns No Search Item  found else it filters the movies from the movies list that is already stored inside our Django Database according to the search item given input by the user and again a checking is done if the movies object is empty or not if not empty then the first object is stored into the list m which was created before and all the suggestions matching to the item searched is displayed to the user with a creative animated text format .</p>
                                 </ol>
                             </ol>
+                          </ol>
                         </ol>
                     </article>
                 </div>
