@@ -18,7 +18,10 @@
 For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshsoumo14@gmail.com</b></a>
 <div class="container">
   <h3>Acknowledgement</h3>
-  <p>We would like to thank all the teachers for their support and knowledge they shared for the successful completion of the project and also a special thanks to our mentor <b>Mentor: <a href="https://www.hetc.ac.in/faculty/sanghamitra-das/">Prof. Mr. Sanghamitra Das</a> (Assistant Prof, Computer Science and Engineering Dept.)</b> ma'm for her continuous guidance , support and  experience she shared with us and also I am thankful to my team Jayanta , Ankita , Sarthak and me(Soumodip) for the combined efforts to reach the successful completion of this project.</p>
+  <p>We would like to thank all the teachers for their support and knowledge they shared for the successful completion of the project and also a special thanks to our mentor <b>Mentor: <a href="https://www.hetc.ac.in/faculty/sanghamitra-das/">Prof. Mr. Sanghamitra Das</a> (Assistant Prof, Computer Science and Engineering Dept.)</b> ma'm for her continuous guidance , support and  experience she shared with us and also I am thankful to my team <li><a href="https://www.linkedin.com/in/soumoofficial/">Soumodip</a> (CSE Dept., Year of Passing 2022)</li>
+  <li><a href="https://www.linkedin.com/in/jayanta-dhali-8a3326192/">Jayanta</a> (CSE Dept., Year of Passing 2022)</li>
+  <li><a href="https://www.linkedin.com/in/ankitadofficial/">Ankita </a> (CSE Dept., Year of Passing 2022)</li>
+  <li><a href="https://www.linkedin.com/in/sarthak-srivastava-50b47a205/">Sarthak </a> (CSE Dept., Year of Passing 2022)</li> for the combined efforts to reach the successful completion of this project.</p>
 </div>
 <div class="container">
 <div class="row g-5">
