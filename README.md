@@ -191,6 +191,50 @@ For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshso
                                     <h5>Testing :</h5>
                                 </li>
                                 <p>Our model will be recommending the best 10 movie names for each of the cases.</p>
+                              <h5>Deployment :</h5>
+                                </li>
+                                <ol>
+                                    <li>
+                                        <h5>App Creation</h5>
+                                    </li>
+                                    <p>In our project we have using Django as our web development framework. Firstly we have created a home page for our web application. Then moving to the insights Django has the inbuilt features for handling the front end web development part features like Html , Css , Js and Bootstrap have been used in our project for the purpose of creating and designing the website.</p>
+                                    <h4>Elements used :</h4>
+                                    <ol>
+                                        <li>
+                                            <h6>Backend Development :</h6>
+                                        </li>
+                                        <p>The data list produced by the Data mining model is stored into our Django database i.e.
+A model is created inside the Django models.py file and a table is created inside our Django database called Movies_List. Then using the import function we directly import the entire list of data which is in .xls form to our database.
+</p>
+                                        <li>
+                                            <h6>Frontend Development :</h6>
+                                        </li>
+                                        <p>It is done using 4 important components :</p>
+                                        <ol>
+                                            <li>
+                                                <p><b>Html</b> : HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Css</b> : CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed.
+</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Js</b> : JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.
+Many browsers use JavaScript as a scripting language for doing dynamic things on the web. Any time you see a click-to-show dropdown menu, extra content added to a page, and dynamically changing element colors on a page, to name a few features, you're seeing the effects of Java Script.
+</p>
+                                            </li>
+                                            <li>
+                                                <p><b>Bootstrap</b> : Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. Bootstrap also gives you the ability to easily create responsive designs. Bootstrap is a free front-end framework for faster and easier web development
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. Bootstrap also gives you the ability to easily create responsive designs
+</p>
+                                            </li>
+                                        </ol>
+                                    </ol>
+                                    <li>
+                                        <h5>Data processing</h5>
+                                    </li>
+                                    <p>How actually the search function works and displays us the final list of movies. Basically there is a views.py file which contains a show function in which the main search functionality is being defined. A post request is being received when a user searches for a movie , a empty list “m” is created. Then we check whether the searched item is ‘’ or not if empty it returns No Search Item  found else it filters the movies from the movies list that is already stored inside our Django Database according to the search item given input by the user and again a checking is done if the movies object is empty or not if not empty then the first object is stored into the list m which was created before and all the suggestions matching to the item searched is displayed to the user with a creative animated text format .</p>
+                                </ol>
                             </ol>
                         </ol>
                     </article>
