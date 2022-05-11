@@ -17,6 +17,10 @@
 <b>Project Ended: Currently ongoing...</b><br><br>
 For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshsoumo14@gmail.com</b></a>
 <div class="container">
+  <h3>Acknowledgement</h3>
+  <p>We would like to thank all the teachers for their support and knowledge they shared for the successful completion of the project and also a special thanks to our mentor "Professor Sanghamitra Das" ma'm for her continuous guidance , support and  experience she shared with us and also I am thankful to my team Jayanta , Ankita , Sarthak and me(Soumodip) for the combined efforts to reach the successful completion of this project.</p>
+</div>
+<div class="container">
 <div class="row g-5">
                 <div class="col-md-8">
                     <h3 class="pb-4 mb-4 fst-italic border-bottom">
