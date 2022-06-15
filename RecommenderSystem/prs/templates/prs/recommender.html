@@ -1,0 +1,107 @@
+{% extends 'prs/basic.html' %}
+{% block title %}Recommender{% endblock %}
+{% block css %}
+body {
+margin: 0;
+padding: 0;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  margin-top : 50px;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #000000;
+}
+
+.right {
+  right: 0;
+  background-color: #7FFFD4;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1{
+margin-bottom :150px;
+}
+.box{
+position : absolute;
+top : 50%;
+left : 50%;
+width : 500px;
+transform : translate(-50%,-50%);
+}
+input{
+position : relative;
+display : inline-block;
+font-size : 20px;
+box-sizing : border-box;
+transition : .5s;
+}
+input[type="text"]{
+background : #FFFFFF;
+width : 340px;
+height : 50px;
+border :none;
+outline : none;
+padding :0 25px;
+border-radius : 25px 0 0 25px;
+}
+input[type="submit"]{
+position : relative;
+left : -5px;
+border-radius : 0 25px 25px 0;
+width : 150px;
+height : 50px;
+border : none;
+outline : none;
+cursor : pointer;
+background : #FFD700;
+color : #000000;
+}
+input[type="submit"]:hover{
+background : #ff5722;
+}
+{% endblock %}
+{% block body %}
+<!--<div class="box">-->
+<!--    <form method=POST action="{% url 'show' %}">-->
+<!--        {% csrf_token %}-->
+<!--        <input type="text" name="searched" placeholder="Search">-->
+<!--        <input type="submit" name="" value="Search">-->
+<!--    </form>-->
+<!--</div>-->
+
+<div class="split left">
+  <div class="centered">
+    <img src="https://wallpaperaccess.com/full/3658597.jpg" height="350px" width="550px" alt="Avatar woman">
+      <h2 style="color:white;">Find your Favorite Movies</h2>
+    <p style="color:white;">Have a great experience</p>
+  </div>
+</div>
+<div class="split right">
+  <div class="centered">
+      <h1 style="text-align:left;">Search your item </h1>
+    <div class="box">
+    <form method=POST action="{% url 'show' %}">
+        {% csrf_token %}
+        <input type="text" name="searched" placeholder="Search">
+        <input type="submit" name="" value="Search">
+    </form>
+</div>
+  </div>
+</div>
+{% endblock %}

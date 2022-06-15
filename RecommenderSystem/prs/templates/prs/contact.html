@@ -1,0 +1,66 @@
+{% extends 'prs/basic.html' %}
+{% block title %}Contact Us{% endblock %}
+{% block css %}
+body {
+margin: 0;
+padding: 0;
+background-image: url('https://images.unsplash.com/photo-1614850523060-8da1d56ae167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29sb3JmdWwlMjBsaWdodGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80');
+background-repeat: no-repeat;
+background-size:cover ;
+}
+.container{
+   width : 600px;
+   padding :15px 15px;
+   border : solid;
+   border: thick double #00008B ;
+}
+.container form{
+}
+@media (min-width:350px) and (max-width : 580px){
+  .container{
+    max-width : 80%;
+    height : 60%;
+  }
+
+  @media (min-width : 581px) and (max-width: 1002px) {
+    .container{
+      max-width : 80%;
+      height : 60%;
+    }
+  }
+  }
+}
+{% endblock %}
+{% block body %}
+<div class="container my-5">
+<h3>Feedback form</h3>
+<form method=POST action="{% url 'contact' %}">
+{% csrf_token %}
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" placeholder="Enter your name" id="name" name="name"aria-describedby="name">
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" placeholder="Enter your email id" id="email" name="email" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input type="tel"  placeholder="Enter your phone number" class="form-control" id="phone" name="phone">
+  </div>
+
+  <div class="form-group">
+    <label for="content">Describe your issue :</label>
+    <textarea class="form-control" placeholder="Enter your text" name="content" id="content" cols="30" rows="5"></textarea>
+  </div>
+<br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  <br>
+</div>
+{% endblock %}
+
+{% block js %}{% endblock %}

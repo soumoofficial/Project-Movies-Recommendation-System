@@ -1,0 +1,198 @@
+{% extends 'prs/basic.html' %}
+{% block title %}Show Results{% endblock %}
+{% block css %}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+body{
+margin:0;
+font-weight: 400;
+}
+*{
+box-sizing: border-box;
+}
+.container{
+font-family: 'Poppins', sans-serif;
+max-width: 1170px;
+width: 100%;
+margin:auto;
+}
+.container table{
+font-size: 50px;
+line-height: 56px;
+font-weight: 700;
+margin:0 0 20px;
+
+}
+
+.home{
+height: 100vh;
+background-image: url('https://fandomwire.com/wp-content/uploads/2018/08/Movies-background.png');
+background-size: cover;
+background-position: center;
+display: flex;
+flex-wrap: wrap;
+padding:50px 15px;
+position: relative;
+}
+.home::before{
+content: '';
+position: absolute;
+left:0;
+top:0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.8);
+z-index: 1;
+}
+.home .home-text{
+text-align: center;
+position: relative;
+z-index: 2;
+}
+.home .home-text h1{
+color:#ffffff;
+font-size: 50px;
+color:#ffffff;
+line-height: 56px;
+font-weight: 700;
+margin:0 0 20px;
+}
+.home .home-text p{
+margin:0;
+overflow: hidden;
+}
+.home .home-text p span{
+font-size: 40px;
+color:#ff2c45;
+font-weight: 700;
+display: inline-block;
+line-height: 46px;
+display: none;
+}
+.home .home-text p span.text-in{
+display: block;
+animation: textIn .5s ease;
+}
+.home .home-text p span.text-out{
+animation: textOut .5s ease;
+}
+@keyframes textIn{
+0%{
+transform: translateY(100%);
+}
+100%{
+transform: translateY(0%);
+}
+}
+@keyframes textOut{
+0%{
+transform: translateY(0%);
+}
+100%{
+transform: translateY(-100%);
+}
+}
+.home .container1{
+width: 100%;
+padding: 10px;
+position:center;
+color:#ffffff;
+font-size: 20px;
+color:#ffffff;
+line-height: 30px;
+font-weight: 100;
+margin:0 0 20px;
+z-index: 2;
+}
+
+.home .container1 table, th, td {
+margin-left:20px;
+margin-right:20px;
+padding : 20px;
+border: 3px solid white;
+}
+{% endblock %}
+{% block body %}
+<section class="home">
+    <div class="container">
+        <div class="row">
+            <div class="home-text">
+                {% if searched %}
+                <h1> {{searched}}</h1>
+
+                <p class="animate-text">
+                    <span>{{movies.Sug_1}}</span>
+                    <span>{{movies.Sug_2}}</span>
+                    <span>{{movies.Sug_3}}</span>
+                    <span>{{movies.Sug_4}}</span>
+                    <span>{{movies.Sug_5}}</span>
+                    <span>{{movies.Sug_6}}</span>
+                    <span>{{movies.Sug_7}}</span>
+                    <span>{{movies.Sug_8}}</span>
+                    <span>{{movies.Sug_9}}</span>
+                    <span>{{movies.Sug_10}}</span>
+                </p>
+
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+
+<!--<div class="container1 mx-5" style="width=100%; color :white;">-->
+<!--    {% if movies %}-->
+<!--    <center class="my-3">-->
+<!--    <table style="width=100%">-->
+<!--  <tr>-->
+<!--    <td>{{movies.Sug_1}}</td>-->
+<!--    <td>{{movies.Sug_2}}</td>-->
+<!--    <td>{{movies.Sug_3}}</td>-->
+<!--  </tr>-->
+<!--  <tr>-->
+<!--    <td>{{movies.Sug_4}}</td>-->
+<!--    <td>{{movies.Sug_5}}</td>-->
+<!--    <td>{{movies.Sug_6}}</td>-->
+<!--  </tr>-->
+<!--  <tr>-->
+<!--    <td>{{movies.Sug_7}}</td>-->
+<!--    <td>{{movies.Sug_8}}</td>-->
+<!--      <td>{{movies.Sug_9}}</td>-->
+<!--      <td>{{movies.Sug_10}}</td>-->
+<!--  </tr>-->
+<!--</table>-->
+<!--</center>-->
+<!--    {% endif %}-->
+<!--</div>-->
+</section>
+
+<script>
+const txts = document.querySelector(".animate-text").children,
+    txtsLen = txts.length;
+let index = 0;
+const textInTimer = 3000,
+    textOutTimer = 2800;
+
+function animateText() {
+    for (let i = 0; i < txtsLen; i++) {
+        txts[i].classList.remove("text-in", "text-out");
+    }
+    txts[index].classList.add("text-in");
+
+    setTimeout(function() {
+        txts[index].classList.add("text-out");
+    }, textOutTimer)
+
+    setTimeout(function() {
+
+        if (index == txtsLen - 1) {
+            index = 0;
+        } else {
+            index++;
+        }
+        animateText();
+    }, textInTimer);
+}
+
+window.onload = animateText;
+</script>
+{% endblock %}
+{% block js %}{% endblock %}
