@@ -14,7 +14,7 @@
   <li><a href="https://www.linkedin.com/in/sarthak-srivastava-50b47a205/">Sarthak Srivastava</a> (CSE Dept., Year of Passing 2022)</li>
 </ol>
 <br><b>Project Started: 1 October 2021</b><br>
-<b>Project Ended: Currently ongoing...</b><br><br>
+<b>Project Ended: 11 June 2022</b><br><br>
 For any queries contact me at <a href="mailto:ghoshsoumo14@gmail.com"><b>ghoshsoumo14@gmail.com</b></a>
 <div class="container">
   <h3>Acknowledgement</h3>
