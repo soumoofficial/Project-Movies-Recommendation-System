@@ -1,5 +1,5 @@
 <h1>Project Movies Recommendation System</h1>
-<b>Status: On Progress</b><br><br>
+<b>Status: Completed</b><br><br>
 <b>College name: Hooghly Engineering and Technology College</b><br>
 <b>Project type: Final Year Project</b><br>
 <b>Mentor: <a href="https://www.hetc.ac.in/faculty/sanghamitra-das/">Prof. Mr. Sanghamitra Das</a> (Assistant Prof, Computer Science and Engineering Dept.)</b><br><br>
